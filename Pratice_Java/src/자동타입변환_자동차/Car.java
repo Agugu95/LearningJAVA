@@ -2,11 +2,6 @@ package 자동타입변환_자동차;
 
 public class Car {
 	// Filed
-	// public class 인 Tire 접근, 생성자를 통해 4개의 좌,우,상,하 객체 생성
-//	Tire frontLeftTire = new Tire("좌측 상단", 6);
-//	Tire frontRightTire = new Tire("우측 상단", 2);
-//	Tire backLeftTire = new Tire("좌측 하단", 3);
-//	Tire backRightTire = new Tire("우측 하단", 4);
 
 	Tire tires[] = { new Tire("좌측 상단", 6), new Tire("우측 상단", 2), new Tire("좌측 하단", 3), new Tire("우측 하단", 4) };
 	// 배열을 통한 객체 생성, 인덱스를 통한 관리

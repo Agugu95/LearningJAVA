@@ -45,6 +45,7 @@ public class InnerClass {
 				System.out.println("메소드 내 로컬 클래스 객체 생성");
 			}
 
+			@SuppressWarnings("unused")
 			int field1;
 
 			void method1() {
