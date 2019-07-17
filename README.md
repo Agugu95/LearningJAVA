@@ -3,7 +3,7 @@
 0708 멀티스레드 챕터 종료  
 0717 스트림과 병렬처리  
 NewException Exception in thread "main" java.lang.IllegalStateException: stream has already been operated upon or closed  
-기존에 사용했던 스트림의 최종 처리를 하지 않은 채 다른 스트림 메소드를 호출하려고 해서 발생한 예외 
+기존에 사용했던 스트림의 최종 처리를 하지 않은 채 다른 스트림 메소드를 호출하려고 해서 발생한 예외  
 public class IllegalStateException
 extends RuntimeException
 Signals that a method has been invoked at an illegal or inappropriate time. In other words, the Java environment or Java application is not in an appropriate state for the requested operation.  
