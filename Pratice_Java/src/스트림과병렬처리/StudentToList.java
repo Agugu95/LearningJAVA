@@ -42,4 +42,5 @@ public class StudentToList {
 	public City getCity() {
 		return city;
 	}
+
 }
